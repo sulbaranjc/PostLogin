@@ -26,8 +26,4 @@ public class LoginController {
         return "redirect:/login?error=true";
     }
 
-    @GetMapping("/welcome")
-    public String welcome() {
-        return "welcome/welcome";
-    }
 }
